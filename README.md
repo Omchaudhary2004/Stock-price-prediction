@@ -24,16 +24,20 @@ The project leverages the following Python libraries:
 ---
 
 ## 📂 Project Structure
+The project consists of three main Python files:
 
-- **`main.py`**: The entry point for the application. Prompts the user for a stock ticker and runs the prediction.
-- **`models/`**: Contains the Random Forest model and related utilities.
-- **`data/`**: (Optional) Can store preprocessed or raw historical data if required.
-- **`README.md`**: Documentation for the repository.
+- **`main.py`:** Entry point, handles user interaction, and calls functions from other modules.
+- **`ml.py`:** Implements the Random Forest model for prediction.
+- **`data.py`:** Handles data retrieval, preprocessing, and price-related operations using yfinance.
+
 
 ---
 
 ## ⚡ How to Run
-
+### Run this command
+```bash
+python main.py
+```
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/stock-gap-prediction.git
