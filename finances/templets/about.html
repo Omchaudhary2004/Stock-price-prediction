@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIFTY Prediction AI – The Future of Market Forecasting</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            text-align: center;
+        }
+        .navbar {
+            background-color: #444; /* Solid background color (light grey) */
+            padding: 0.5rem 0;
+            width: 100%;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .navbar-nav {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar-nav .nav-item {
+            margin: 0 0.5rem;
+        }
+
+        .navbar-nav .nav-link {
+            color: white !important;
+            font-size: 0.9rem;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        header {
+            padding: 80px 20px;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        p.subtitle {
+            font-size: 20px;
+            color: #6e6e73;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        section {
+            padding: 80px 10%;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h2 {
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            color: #1d1d1f;
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+        }
+        .feature-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-top: 40px;
+        }
+        .feature {
+            max-width: 300px;
+            text-align: left;
+        }
+        .feature h3 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .feature p {
+            font-size: 18px;
+            color: #6e6e73;
+        }
+        .cta {
+            margin-top: 50px;
+            font-size: 22px;
+            font-weight: 500;
+            color: #0071e3;
+            text-decoration: none;
+        }
+        .feature img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'index' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Market Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Predictions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1>NIFTY Prediction AI</h1>
+        <p class="subtitle">An intelligent way to predict market trends with precision and confidence.</p>
+    </header>
+
+    <section>
+        <h2>Designed for Traders. Powered by AI.</h2>
+        <p>Our cutting-edge machine learning model brings <strong>real-time insights</strong> to your trading strategies. By analyzing <strong>historical price data, technical indicators, and option chain movements</strong>, we provide a smarter way to navigate the markets.</p>
+    </section>
+
+    <section>
+        <h2>Why It’s Different</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <img src="static/media/Stocks (1).png" alt="Real-Time Logo"> <h3>Real-Time Predictions</h3>
+                <p>Stay ahead of the market with <strong>live trend forecasts</strong> updated every 15 minutes.</p>
+            </div>
+            <div class="feature">
+                <img src="optionchain_logo.png" alt="Option Chain Logo"> <h3>Smart Option Chain Analysis</h3>
+                <p>Understand market sentiment with <strong>OI, IV, Greeks, and PCR</strong> data.</p>
+            </div>
+            <div class="feature">
+                <img src="ml_logo.png" alt="ML Logo"> <h3>ML-Powered Insights</h3>
+                <p>Harness the power of <strong>XGBoost + LSTM hybrid models</strong> for better accuracy.</p>
+            </div>
+            <div class="feature">
+                <img src="api_logo.png" alt="API Logo"> <h3>Seamless API Integration</h3>
+                <p>Automate your trading with an easy-to-use <strong>REST API</strong>.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Built with Precision</h2>
+        <p>Every element of NIFTY Prediction AI is crafted to provide <strong>traders, investors, and institutions</strong> with the most reliable market forecasts.</p>
+    </section>
+
+    <section>
+        <h2>Ready to Trade Smarter?</h2>
+        <p>Start using the most advanced AI-powered trading assistant today.</p>
+        <a href="#" class="cta">Learn More</a>
+    </section>
+
+</body>
+</html>
